@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="/styles.css">
+    <title>8MD Memory Game</title>
+</head>
+
+<body>
+    <section class="buttons">
+        <div class="container">
+            <div class="btn-wrap btn-mode">
+                <button class="btn btn__mode-3x2 js-game-field">Easy</button>
+                <button class="btn btn__mode-3x4 js-game-field">Hard</button>
+            </div>
+            <div class="btn-wrap btn-game btn-game--disabled">
+                <button class="btn btn__start-game">Start Game</button>
+                <button class="btn btn__reset-game btn__reset-game--disabled">Restart Game</button>
+            </div>
+        </div>
+    </section>
+    <section class="cards">
+        <div class="container">
+            <div class="card__list">
+            </div>
+        </div>
+    </section>
+    <section class="bottom">
+        <div class="container">
+            <div class="bottom-wrap">
+                <div class="move move--disabled js-move-counter">
+                    <span class="move__count">
+                        Move count: 0
+                    </span>
+                </div>
+                <div class="win win--disabled js-win-counter">
+                    <span class="win__count">
+                        Total wins: 0
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="/scripts.js"></script>
+</body>
+
+</html>
